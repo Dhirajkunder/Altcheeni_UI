@@ -1,0 +1,286 @@
+/* NAV BAR STYLE */
+
+@media (max-width: 875.98px) {
+
+  .owl-carousel .item {
+    width:100% !important;
+    margin-bottom: 20px !important;
+    height: 140px;
+  }
+  
+  .owl-carousel .item h4 {
+    font-size: 15px !important;
+  }
+  .owl-carousel .item img {
+    margin-bottom: 20px !important;
+    height: 50px;
+  }
+  #CompanyLogo .owl-carousel .item {
+    width:90% !important;
+    margin-left: 5px !important;
+    margin-right: 20px !important;
+    height: 120px !important;
+
+  
+  }
+  
+  #CompanyLogo .owl-carousel .item img {
+    height: 120px !important;
+    width:100% !important;
+
+    
+  }
+}
+
+
+@media (max-width: 900px) {
+
+  /* HOMEPAGE */
+
+  .imagebanner img{
+    height: 250px !important;
+  }
+  
+  .contact__wrapper {
+    position: relative;
+    top: -50px !important;
+    /* Adjust this value as needed */
+    z-index: 1;
+  
+    /* To ensure the form is on top of the image */
+  }
+  .nav-pills .nav-link{
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+
+  .homeTitle{
+    font-size: 20px !important;
+    font-weight: bolder !important;
+    font-style: italic !important;
+  }
+  .text-overlay {
+    top:120px !important; /* Adjust the top position for smaller screens */
+    left: 50% !important; /* Center the element horizontally */
+    transform: translateX(-50%) !important;
+    font-size: 10px !important;
+}
+.text-white{
+  font-size: 10px !important;
+  width: 300px;
+
+}
+
+#Cart img{
+  height: 70px !important;
+}
+#wishlist img{
+  height: 70px !important;
+  
+}
+
+#BestItems .img-thumbnail{
+  height: 300px !important;
+}
+
+  
+  .logo-image{
+    width: 100px;
+  }
+  .header-icons{
+      padding-left: 50px;
+      padding-top: 20px;
+      
+  
+}
+.search-form{
+  padding: auto;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.ftco-navbar-light {
+  background: #ffffff !important;
+  height: auto;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  color: rgba(10, 10, 10, 0.7);
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+  color: #020202;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu {
+  display: block !important;
+  background: #000000;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu . {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item.cta>a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item.cta>a {
+  color: #000000;
+  background: #126e00;
+  border-radius: 4px;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item.active>a {
+  color: #000;
+}
+
+.SalesProduct{
+    font-size: 10px !important;
+    height: auto !important;
+  }
+
+  .ribbon span, h2{
+    font: 100 10px 'Lato', sans-serif !important;
+  }
+  .Wishlist img{
+    height: 60px !important;
+    width: 60px !important;
+    padding-left: 10px !important;
+
+  }
+  .Wishlist button{
+    height: 50px !important;
+    width: 40px !important;
+    font-size: 10px;
+
+  }
+  .round-black-btn {
+    
+    font-size: 15px;
+    padding-left: 20px!important;
+    padding-right: 20px !important;
+  }
+  .custom-btn {
+    font-size: 10px;
+    padding-left: 2%;
+    padding-right: 0%;
+    border-radius: 10%;
+  }
+  
+  .custom-btn1 {
+    font-size: 12px;
+    padding-left: 2%;
+    padding-right: 0%;
+    border-radius: 5px;
+  }
+  .custom-btn1:hover {
+    color: #f58634;
+    border-color: #f58634;
+     border-bottom: 3px solid transparent !important;
+    border-top: 3px solid transparent !important;
+  }
+  .form-control{
+    font-size: 12px !important;
+  } 
+
+}
+
+
+@media (max-width: 900px) {
+   #imageCarousel.carousel{
+    height: 250px;
+  }
+  #imageCarousel img{
+    height: 250px;
+  }
+
+
+
+  .cart-number{
+    
+    width: 20px !important;
+    font-size: 12px !important
+  }
+  .cart-number1{
+    right: -45px;;
+
+  }
+  .quickView-btn {
+  
+    transform: translateX(-50%);
+    font-weight: bold;
+    text-decoration: none !important;
+    height: 20px;
+    width: 100% !important;
+    font-size: 9px;
+
+  }
+.checkbox-label    {
+  font-size: 8px !important;
+}
+.checkmark {
+  width: 15px !important;
+  height: 14px !important;
+
+}
+  .single  li a ,h3 {
+        font-size: 10px !important;
+    line-height: 27px !important;
+    height: auto;
+  }
+  .fliter-text {
+    font-size: 15px !important;
+  }
+  .FilterBtn{
+    color: #000000;
+    background-color: white;
+    font-size: 11px;
+    
+    height: 50px !important;
+  }
+  
+  .filtertoggle{
+ font-size: 15px !important;
+ padding: 20px !important;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Optional: Adjust the z-index to control the stacking order */
+  }
+  #productDetails  .img-display {
+   height: 300px !important;
+  }
+  #footerCSS .widget-title,
+  #footerCSS a,
+  #footerCSS p{
+ 
+      font-size:12px !important;
+   }
+   footer .footer-logo-image{
+    width: 50%;
+    margin-left: 25%;
+   }
+ #couponModal .row,
+ #couponModal .custom-title{
+  display: flow !important;
+  font-size: 20px !important;
+ }
+ #Checkout h6{
+  font-size: 10px !important;
+ }
+}

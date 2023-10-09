@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sells by State Chart</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.21/c3.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.21/c3.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var salesData = [
+    ['State', 'Sales'],
+    ['New York', 10000],
+    ['California', 12000],
+    ['Texas', 8000],
+    ['Florida', 9500]
+    // Add more states and their sales data here...
+  ];
+
+  var chart = c3.generate({
+    bindto: '#chart',
+    data: {
+      columns: salesData,
+      type: 'bar'
+    },
+    axis: {
+      x: {
+        type: 'category',
+        label: {
+          text: 'States',
+          position: 'outer-center'
+        }
+      },
+      y: {
+        label: {
+          text: 'Sales',
+          position: 'outer-middle'
+        }
+      }
+    },
+    color: {
+      pattern: ['#3366cc']
+    }
+  });
+});
+</script>
+
+</body>
+</html>
